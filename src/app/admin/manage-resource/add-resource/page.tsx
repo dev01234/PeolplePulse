@@ -37,7 +37,7 @@ const formSchema = z.object({
   jobTitle: z.string().min(1, "Job title is required."),
   hireDate: z.date({ required_error: "Hire date is required." }),
   status: z.string({
-    required_error: "Please select an email to display.",
+    required_error: "Please select a status to display.",
   }),
   departmentID: z.number(),
   managerID: z.number()

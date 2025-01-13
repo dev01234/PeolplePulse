@@ -41,6 +41,8 @@ export function AdminSidebar() {
     { href: '/admin', icon: LayoutDashboard, label: 'Dashboard' },
     { href: '/admin/manage-project', icon: User, label: 'Manage Project' },
     { href: '/admin/manage-resource', icon: Settings, label: 'Manage Resource' },
+    { href: '/admin/manage-supplier', icon: Settings, label: 'Manage Supplier' },
+    { href: '/admin/timesheet', icon: Settings, label: 'TImesheets' },
   ];
 
 
